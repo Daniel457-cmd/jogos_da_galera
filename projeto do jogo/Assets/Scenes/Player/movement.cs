@@ -5,6 +5,8 @@ public class movement : MonoBehaviour
 {
     public float speed = 5.0f;
     public float jumpForce = 7.0f;
+    public Transform cameraTransform;
+    public float rotationSpeed = 720.0f;
     public LayerMask groundMask = ~0;
     public float groundCheckDistance = 0.1f;
 
@@ -32,11 +34,37 @@ public class movement : MonoBehaviour
     {
         float horizontalInput = Input.GetAxis("Horizontal");
         float verticalInput = Input.GetAxis("Vertical");
-        Vector3 movement = new Vector3(horizontalInput, 0.0f, verticalInput);
+        Vector3 movement;
+
+        if (cameraTransform != null)
+        {
+            Vector3 cameraForward = cameraTransform.forward;
+            Vector3 cameraRight = cameraTransform.right;
+            cameraForward.y = 0.0f;
+            cameraRight.y = 0.0f;
+            cameraForward.Normalize();
+            cameraRight.Normalize();
+            movement = cameraRight * horizontalInput + cameraForward * verticalInput;
+        }
+        else
+        {
+            movement = new Vector3(horizontalInput, 0.0f, verticalInput);
+        }
 
         if (movement.sqrMagnitude > 1.0f)
         {
             movement.Normalize();
+        }
+
+        if (movement.sqrMagnitude > 0.001f)
+        {
+            Quaternion targetRotation = Quaternion.LookRotation(movement, Vector3.up);
+            Quaternion newRotation = Quaternion.RotateTowards(
+                playerRigidbody.rotation,
+                targetRotation,
+                rotationSpeed * Time.fixedDeltaTime
+            );
+            playerRigidbody.MoveRotation(newRotation);
         }
 
         Vector3 velocity = playerRigidbody.linearVelocity;
