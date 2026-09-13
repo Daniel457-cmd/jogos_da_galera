@@ -5,12 +5,12 @@
 		{"id":"eff7954a5fed6fa5","type":"text","text":"Lore\n","x":300,"y":-160,"width":250,"height":60},
 		{"id":"ceb0ffb88a745b36","type":"text","text":"Visual","x":-460,"y":-160,"width":250,"height":60},
 		{"id":"f2ee7256ed237426","type":"text","text":"Básico\n","x":425,"y":-836,"width":250,"height":60,"color":"6"},
-		{"id":"3c2aa997d051da03","type":"text","text":"Move","x":720,"y":-960,"width":250,"height":60,"color":"4"},
-		{"id":"8e775f3f0d16528e","type":"text","text":"Andar","x":1024,"y":-960,"width":250,"height":60,"color":"4"},
-		{"id":"68da907b91e611d0","type":"text","text":"Pular","x":1324,"y":-960,"width":250,"height":60,"color":"4"},
-		{"id":"dd02189d32b87345","type":"text","text":"Look\n","x":720,"y":-1100,"width":250,"height":60,"color":"2"},
-		{"id":"054bc73b625362fd","x":1024,"y":-1100,"width":250,"height":60,"type":"text","text":"Change perspective"},
-		{"id":"cd9e09c1cc408af7","type":"text","text":"Avançado\n","x":100,"y":-836,"width":250,"height":60,"color":"6"}
+		{"id":"3c2aa997d051da03","type":"text","text":"Move - Daniel","x":720,"y":-960,"width":250,"height":60,"color":"4"},
+		{"id":"8e775f3f0d16528e","type":"text","text":"Andar - Daniel","x":1024,"y":-960,"width":250,"height":60,"color":"4"},
+		{"id":"68da907b91e611d0","type":"text","text":"Pular - Daniel","x":1324,"y":-960,"width":250,"height":60,"color":"4"},
+		{"id":"cd9e09c1cc408af7","type":"text","text":"Avançado\n","x":100,"y":-836,"width":250,"height":60,"color":"6"},
+		{"id":"dd02189d32b87345","type":"text","text":"Look - Daniel","x":720,"y":-1180,"width":250,"height":60,"color":"2"},
+		{"id":"054bc73b625362fd","x":1024,"y":-1180,"width":250,"height":60,"type":"text","text":"Change perspective "}
 	],
 	"edges":[
 		{"id":"f87656d515c96e64","fromNode":"822cf882d4761f44","fromSide":"top","toNode":"8ab77c1e529ef227","toSide":"bottom","color":"1"},
