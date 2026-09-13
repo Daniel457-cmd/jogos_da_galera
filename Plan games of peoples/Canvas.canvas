@@ -1,0 +1,27 @@
+{
+	"nodes":[
+		{"id":"822cf882d4761f44","type":"text","text":"Jogo da Galera","x":-65,"y":-160,"width":165,"height":60,"color":"1"},
+		{"id":"8ab77c1e529ef227","type":"text","text":"Tecnica\n","x":-107,"y":-380,"width":250,"height":60,"color":"2"},
+		{"id":"eff7954a5fed6fa5","type":"text","text":"Lore\n","x":300,"y":-160,"width":250,"height":60},
+		{"id":"ceb0ffb88a745b36","type":"text","text":"Visual","x":-460,"y":-160,"width":250,"height":60},
+		{"id":"f2ee7256ed237426","type":"text","text":"Básico\n","x":425,"y":-836,"width":250,"height":60,"color":"6"},
+		{"id":"3c2aa997d051da03","type":"text","text":"Move - Daniel","x":720,"y":-960,"width":250,"height":60,"color":"4"},
+		{"id":"8e775f3f0d16528e","type":"text","text":"Andar - Daniel","x":1024,"y":-960,"width":250,"height":60,"color":"4"},
+		{"id":"68da907b91e611d0","type":"text","text":"Pular - Daniel","x":1324,"y":-960,"width":250,"height":60,"color":"4"},
+		{"id":"cd9e09c1cc408af7","type":"text","text":"Avançado\n","x":100,"y":-836,"width":250,"height":60,"color":"6"},
+		{"id":"dd02189d32b87345","type":"text","text":"Look - Daniel","x":720,"y":-1180,"width":250,"height":60,"color":"2"},
+		{"id":"054bc73b625362fd","x":1024,"y":-1180,"width":250,"height":60,"type":"text","text":"Change perspective "}
+	],
+	"edges":[
+		{"id":"f87656d515c96e64","fromNode":"822cf882d4761f44","fromSide":"top","toNode":"8ab77c1e529ef227","toSide":"bottom","color":"1"},
+		{"id":"208ef0058e2f97be","fromNode":"822cf882d4761f44","fromSide":"right","toNode":"eff7954a5fed6fa5","toSide":"left","color":"1"},
+		{"id":"ef715263099bc516","fromNode":"822cf882d4761f44","fromSide":"left","toNode":"ceb0ffb88a745b36","toSide":"right","color":"1"},
+		{"id":"85aecefd0323e69e","fromNode":"8ab77c1e529ef227","fromSide":"top","toNode":"f2ee7256ed237426","toSide":"bottom","color":"2"},
+		{"id":"a694bf2d038e4f7c","fromNode":"f2ee7256ed237426","fromSide":"top","toNode":"3c2aa997d051da03","toSide":"left","color":"6"},
+		{"id":"4a4a65b2264f8f1b","fromNode":"3c2aa997d051da03","fromSide":"right","toNode":"8e775f3f0d16528e","toSide":"left","color":"4"},
+		{"id":"ef097b1237474644","fromNode":"8e775f3f0d16528e","fromSide":"right","toNode":"68da907b91e611d0","toSide":"left","color":"4"},
+		{"id":"9764bb49953f69fc","fromNode":"f2ee7256ed237426","fromSide":"top","toNode":"dd02189d32b87345","toSide":"left","color":"6"},
+		{"id":"97d60f7b92c607fe","fromNode":"8ab77c1e529ef227","fromSide":"top","toNode":"cd9e09c1cc408af7","toSide":"bottom","color":"2"},
+		{"id":"03fee86f8936f756","fromNode":"dd02189d32b87345","fromSide":"right","toNode":"054bc73b625362fd","toSide":"left","color":"2"}
+	]
+}
