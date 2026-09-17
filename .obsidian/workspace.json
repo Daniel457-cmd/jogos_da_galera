@@ -1,41 +1,27 @@
 {
   "main": {
-    "id": "b965ded41aa5db67",
+    "id": "1ecc46c36e8c091c",
     "type": "split",
     "children": [
       {
-        "id": "5710347a317cfcb5",
+        "id": "edf01818a9b77760",
         "type": "tabs",
         "children": [
           {
-            "id": "b21d3d152e4cd13b",
+            "id": "7e59af50eaac54e5",
             "type": "leaf",
             "state": {
               "type": "canvas",
               "state": {
-                "file": "Canvas.canvas",
+                "file": "Plan games of peoples/Canvas.canvas",
                 "viewState": {
-                  "x": 827.3974092938006,
-                  "y": -534.9600665095909,
-                  "zoom": -2.3333333333333326
+                  "x": 1111.623130647901,
+                  "y": -956.1771670704155,
+                  "zoom": -0.3928978673815967
                 }
               },
               "icon": "lucide-layout-dashboard",
               "title": "Canvas"
-            }
-          },
-          {
-            "id": "434ba9fa702ee444",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "TXT.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "TXT"
             }
           }
         ]
@@ -44,15 +30,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "ef7be2c7e53fa2fc",
+    "id": "913848f6dc9c50c5",
     "type": "split",
     "children": [
       {
-        "id": "a204c8cbbd486db7",
+        "id": "35e69a746aaba7f4",
         "type": "tabs",
         "children": [
           {
-            "id": "89cbe257d0514d92",
+            "id": "5eb2ae6e6343c11c",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -67,7 +53,7 @@
             }
           },
           {
-            "id": "65fb1f8d4a42eb0d",
+            "id": "63b2bdc2133e5cb0",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -84,7 +70,7 @@
             }
           },
           {
-            "id": "69f390672372ebaa",
+            "id": "a79a5a36ea7442b2",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -103,20 +89,19 @@
     "width": 300
   },
   "right": {
-    "id": "9a6862c5a0fe0cd4",
+    "id": "f543298afbcdd6aa",
     "type": "split",
     "children": [
       {
-        "id": "44b02fba81a8dd82",
+        "id": "67c1d3414f4f5ca5",
         "type": "tabs",
         "children": [
           {
-            "id": "32f56187dd827327",
+            "id": "4e0eac879f6fe222",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Canvas.canvas",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -130,12 +115,11 @@
             }
           },
           {
-            "id": "ad653ed2f290998a",
+            "id": "e806a68b6db12bac",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Canvas.canvas",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
@@ -144,7 +128,7 @@
             }
           },
           {
-            "id": "c49c3dcce9bad997",
+            "id": "d6181d33a9aa261c",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -159,7 +143,7 @@
             }
           },
           {
-            "id": "5ba530e44a62024c",
+            "id": "6a93674d634139cf",
             "type": "leaf",
             "state": {
               "type": "all-properties",
@@ -173,12 +157,11 @@
             }
           },
           {
-            "id": "a8038b21e845a00d",
+            "id": "3c4203d25d2ff8b4",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "Bem-vindo.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -187,12 +170,11 @@
               "title": "Índice"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 200,
+    "width": 300,
     "collapsed": true
   },
   "left-ribbon": {
@@ -206,11 +188,9 @@
       "bases:Criar nova base": false
     }
   },
-  "active": "b21d3d152e4cd13b",
+  "active": "7e59af50eaac54e5",
   "lastOpenFiles": [
-    "TXT.md",
-    "Canvas.canvas",
-    "Sem título.base",
-    "Bem-vindo.md"
+    "Plan games of peoples/TXT.md",
+    "Plan games of peoples/Canvas.canvas"
   ]
 }
