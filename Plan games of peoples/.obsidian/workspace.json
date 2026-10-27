@@ -29,9 +29,9 @@
               "state": {
                 "file": "Canvas.canvas",
                 "viewState": {
-                  "x": 802.4556722081223,
-                  "y": -1128.3376449057419,
-                  "zoom": -0.9081932549598302
+                  "x": 715.4205607476634,
+                  "y": -858.5700934579438,
+                  "zoom": -1.2415265882931634
                 }
               },
               "icon": "lucide-layout-dashboard",
@@ -223,9 +223,9 @@
   },
   "active": "940fa819dc8a9c19",
   "lastOpenFiles": [
+    "TXT.md",
     "Tasks.md",
     "Canvas.canvas",
-    "TXT.md",
     "Sem título.base",
     "Bem-vindo.md"
   ]
